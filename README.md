@@ -1,25 +1,25 @@
-# UltraFumos
+# UltraFumos + Niko
 
-An updated version of [FumoSkulls](https://thunderstore.io/c/ultrakill/p/Snorkelin_Tony/FumoSkulls/), made with permission.
+An modded version of [UltraFumos](https://thunderstore.io/c/ultrakill/p/UltraFumosTeam/UltraFumos/), made withot permission.
 
 Features:
-* replaces Red Skull with Reimu, Blue Skull with Cirno
-* replaces soap with Koishi
-* replaces rockets with Sakura
-* replaces torch (think 4-3) with Yuyuko
-* replaces landmines with Youmu
-* replaces books and tablets with Patchouli
-
+* replaces Red Skull, Blue Skull, Soap, Rockets, Torch and Landmines with Niko
+* same Features as [UltraFumos](https://thunderstore.io/c/ultrakill/p/UltraFumosTeam/UltraFumos/)
 ![an image showing the various replacements](https://raw.githubusercontent.com/RealKC/UltraFumos/master/screenshot.png)
 
-If you like the mod, consider sending me a tip on Ko-fi: https://ko-fi.com/realkc.
+If you like the mod, consider sending the Original Creator a tip on Ko-fi: https://ko-fi.com/realkc.
 
 ## Credits
 
 If you believe you were not properly credited, please tell me and I will change that.
 
+### Original Creator: 
+*[RealKC](https://github.com/RealKC)
+
 ### Models
 
+* [Pitzuna](https://sketchfab.com/bonkiobonkio) on Sketchfab:
+  * [Niko Plush Model](https://sketchfab.com/3d-models/oneshot-niko-plush-low-poly-10f8f9d90a2c471993ef31804830e9ce) 
 * [Renafox](https://sketchfab.com/kryik1023) on Sketchfab:
   * [Reimu scan](https://sketchfab.com/3d-models/project-reimu-fumo-3d-scan-c4723331d1a2400d942c00004d59e1cc) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
   * [Cirno scan](https://sketchfab.com/3d-models/project-cirno-fumo-3d-scan-efd2a7f4dbf048c1a18438db7f86c4b9) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -31,14 +31,11 @@ If you believe you were not properly credited, please tell me and I will change 
 * [KBMollysuh](https://sketchfab.com/kbmollysuh) on Sketchfab:
   * [Yuyuko scan](https://sketchfab.com/3d-models/project-yuyuko-fumo-3d-reconstruction-c53f91a1a962444fb1568f494dbc13eb) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 * [inframodem](https://sketchfab.com/inframodem) on Sketchfab:
-  * [Patchouli Knowledge Fumo](https://sketchfab.com/3d-models/patchouli-knowledge-fumo-9d04541708be45f1b92a975b9fed8118) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) with necessary changes to make it work in Unity (mainly a conversion to .obj)
+  * [Patchouli Knowledge Fumo](https://sketchfab.com/3d-models/patchouli-knowledge-fumo-9d04541708be45f1b92a975b9fed8118) under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 As far as I can tell, the changes to the models were doing what's necessary to get them into Unity, but I'm not too sure.
 
 ### Code
-
-Note that the code is licensed under the [MIT license](https://github.com/RealKC/UltraFumos/blob/main/LICENSE.txt).
-
 * [@The-DoomMan](https://github.com/The-DoomMan) for making the original mod and giving me permission to upload an updated version
 * [The other contributors](https://github.com/The-DoomMan/FumoSkulls/graphs/contributors) to the original Fumo Skulls mod
 * eternalUnion and contributors for [PluginConfigurator](https://github.com/eternalUnion/UKPluginConfigurator) which is licensed under the [MIT License](https://github.com/eternalUnion/UKPluginConfigurator/blob/b120cc59c215f0242c14affa3ea8eade2c615b49/LICENSE)
