@@ -2,6 +2,7 @@ namespace FumoSkull;
 
 public enum Fumo
 {
+    Niko,
     Cirno,
     Reimu,
     Yuyuko,

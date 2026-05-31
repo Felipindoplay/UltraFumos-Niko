@@ -1,5 +1,6 @@
 using HarmonyLib;
 using UnityEngine;
+using static UnityEngine.ParticleSystem.PlaybackState;
 
 namespace FumoSkull.Patches;
 

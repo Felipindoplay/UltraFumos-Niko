@@ -10,6 +10,7 @@ public class FumoConfig
 {
     private PluginConfigurator config;
 
+    private BoolField niko;
     private BoolField cirno;
     private BoolField reimu;
     private BoolField yuyuko;
@@ -30,6 +31,7 @@ public class FumoConfig
         var texture = FumoSkulls.FumoBundle.LoadAsset<Texture2D>("icon.png");
         config.image = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), new Vector2(0.5f, 0.5f), 100.0f);
 
+        niko = new BoolField(config.rootPanel, "Replace Books, Tables, Skulls, Torches, Soap, Rockets, Mines and Core Eject with niko", "skull.blue.niko", true);
         cirno = new BoolField(config.rootPanel, "Replace blue skulls with Cirno", "skull.blue.cirno", true);
         reimu = new BoolField(config.rootPanel, "Replace red skulls with Reimu", "skull.red.reimu", true);
         yuyuko = new BoolField(config.rootPanel, "Replace torches with Yuyuko", "torch.yuyuko", true);
@@ -38,8 +40,12 @@ public class FumoConfig
         youmu = new BoolField(config.rootPanel, "Replace mines with Youmu", "mine.youmu", true);
         mokou = new BoolField(config.rootPanel, "Replace core eject with Mokou", "grenade.core_eject.mokou", true);
         patchouli = new BoolField(config.rootPanel, "Replace books and tablets with Patchouli", "book.patchouli", true);
-    }
 
+    }
+    public bool IsNikoDisabled
+    {
+        get => !niko.value;
+    }
     public bool IsCirnoDisabled
     {
         get => !cirno.value;
