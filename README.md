@@ -1,6 +1,6 @@
 # UltraFumos + Niko
 
-An modded version of [UltraFumos](https://thunderstore.io/c/ultrakill/p/UltraFumosTeam/UltraFumos/), made withot permission.
+An modded version of [UltraFumos](https://thunderstore.io/c/ultrakill/p/UltraFumosTeam/UltraFumos/), made without permission.
 
 Features:
 * replaces Red Skull, Blue Skull, Soap, Rockets, Torch and Landmines with Niko
